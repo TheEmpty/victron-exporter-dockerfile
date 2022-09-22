@@ -1,5 +1,5 @@
 USER="theempty"
-NAME="vicron-exporter"
+NAME="victron-exporter"
 VERSION=$(sed -E -n 's/^ARG GIT_TAG=v([0-9\.]+)/\1/p' Dockerfile)
 BUILDX="pensive_albattani"
 PLATFORMS="linux/amd64,linux/arm64"
